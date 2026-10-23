@@ -1,5 +1,0 @@
-window.__FILES__ = [{
-    "name":  "测试测试测试.txt",
-    "url":  "app/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95.txt",
-    "size":  0
-}];

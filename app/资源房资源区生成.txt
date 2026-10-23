@@ -1,0 +1,17 @@
+第一种
+execute as @e[r=5,type=armor_stand,c=1] at @s rotated ~~ run tp ~~~~1
+execute at @e[r=5,type=armor_stand] positioned ~~-1~ run fill ^^^^^^30 deny
+execute at @e[r=5,type=armor_stand] positioned ~~~ run fill  ^^30 ^30 ^^^30 snow
+
+第二种
+
+/execute as @e[type=armor_stand,c=1] at @s run tp ~~~~1 0
+
+/execute as @e[type=armor_stand,c=1] at @s run fill ^^-1^ ^^-1^50 grass replace
+
+/execute as @e[type=armor_stand,c=1] at @s run fill ^^-2^ ^^-2^50 deny replace
+
+/execute at @e [type=armor_stand,c=1] run fill ^^^50 ^^50^50 stripped_spruce_log replace
+
+/execute at @e[type=armor_stand,c=1] run fill  ^^51^ ^^51^50 stained_glass replace
+

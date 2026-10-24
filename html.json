@@ -1,1 +1,1 @@
-window.__HTML__ = true;
+window.__HTML__ = false;
